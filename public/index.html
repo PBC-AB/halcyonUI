@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lead API Demo</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lead API Demo</h1>
+    <form id="leadForm">
+      <label for="emailAddress">Email Address:</label>
+      <input type="email" id="emailAddress" name="emailAddress" required>
+
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+
+      <label for="company">Company:</label>
+      <input type="text" id="company" name="company" required>
+
+      <label for="jobTitle">Job Title:</label>
+      <input type="text" id="jobTitle" name="jobTitle" required>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
