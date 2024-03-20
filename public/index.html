@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Lead API Demo</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+    <head>
+        <title>Lead API Demo</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://unpkg.com/highlight.run"></script>
+        <script>
+          H.init('zg0ojmpg', {
+            environment: 'demo',
+            version: 'v0.1',
+            networkRecording: {
+              enabled: true,
+              recordHeadersAndBody: true,
+              urlBlocklist: [
+                // insert full or partial urls that you don't want to record here
+                // Out of the box, Highlight will not record these URLs (they can be safely removed):
+                "https://www.googleapis.com/identitytoolkit",
+                "https://securetoken.googleapis.com",
+              ],
+            },
+          });
+        </script>
+      </head>
 <body>
   <div class="container">
     <h1>Lead API Demo</h1>

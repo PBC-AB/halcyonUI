@@ -30,6 +30,11 @@ $(document).ready(function() {
           'X-Password': password,
         },
         success: function(response) {
+          // Identify the user after successful API request
+          H.identify('demosite', {
+            ID: '1'
+          });
+  
           // Display the response in the result div
           $('#result').html(JSON.stringify(response, null, 2));
         },
@@ -45,4 +50,3 @@ $(document).ready(function() {
       });
     });
   });
-  

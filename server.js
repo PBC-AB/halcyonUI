@@ -5,7 +5,7 @@ const port = 3001;
 
 // Set up the token and password
 const token = 'vzlis8LR05T55PJeAvzVvyZzOBkPEjaj30GCCAKfXWZB9YbrH5Sqvt23JXzM09UX';
-const password = 'wildshinyhats12*';
+const password = 'whyhellovicar';
 
 // Serve static files from the "public" directory
 app.use(express.static('public'));
